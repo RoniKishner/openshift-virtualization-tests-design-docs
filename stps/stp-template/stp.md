@@ -29,7 +29,7 @@ This section documents the mandatory QE review process. The goal is to understan
 | **Acceptance Criteria** | | Ensured acceptance criteria are **defined clearly** (clear user stories; D/S requirements clearly defined in Jira).                                                                     | |
 | **Non-Functional Requirements (NFRs)** | | Confirmed coverage for NFRs, including Performance, Security, Usability, Downtime, Connectivity, Monitoring (alerts/metrics), Scalability, Portability (e.g., cloud support), and Docs. | |
 
-- [Kubectl VEPs](https://github.com/kubevirt/enhancements/tree/main/veps)  
+- [KubeVirt VEPs](https://github.com/kubevirt/enhancements/tree/main/veps)  
 - [OCP VEPs](https://github.com/openshift/enhancements/tree/master/enhancements)
 
 #### **2. Technology and Design Review**
