@@ -1,0 +1,7 @@
+root-approvers: False
+approvers:
+  - geetikakay
+  - RoniKishner
+reviewers:
+  - geetikakay
+  - RoniKishner
