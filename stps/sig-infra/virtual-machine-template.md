@@ -24,10 +24,10 @@
 
 ### **Feature Overview**
 
-KubeVirt currently lacks native, in-cluster templating for VirtualMachines. 
-This enhancement introduces **VirtualMachineTemplate** (and related APIs) so users can create, share, and manage VM blueprints inside the cluster—supporting both **golden-image-based** templates and **templates created from existing VMs**. 
-It provides a `/process` subresource for server-side template processing, a `/create` subresource for creating VMs from templates, and **virtctl** commands (`template process`, `template convert`, `template create`). 
-A **VirtualMachineTemplateRequest** CRD orchestrates capturing an existing VM (via snapshot/clone) into a new template. 
+KubeVirt currently lacks native, in-cluster templating for VirtualMachines.
+This enhancement introduces **VirtualMachineTemplate** (and related APIs) so users can create, share, and manage VM blueprints inside the cluster—supporting both **golden-image-based** templates and **templates created from existing VMs**.
+It provides a `/process` subresource for server-side template processing, a `/create` subresource for creating VMs from templates, and **virtctl** commands (`template process`, `template convert`, `template create`).
+A **VirtualMachineTemplateRequest** CRD orchestrates capturing an existing VM (via snapshot/clone) into a new template.
 Testing must cover CRD lifecycle, parameter substitution, cross-namespace usage, RBAC, and integration with OpenShift Virtualization and common-templates.
 
 ---
